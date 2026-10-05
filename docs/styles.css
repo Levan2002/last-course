@@ -237,3 +237,34 @@ kbd, .path { font-family: var(--sans); font-weight: 600; color: var(--green); }
 
 .center { text-align: center; }
 .muted { color: var(--green-soft); }
+
+
+/* ---- Guides ---- */
+.g-page { padding: 28px 0 24px; }
+.g-crumbs { font-size: 0.86rem; color: var(--green-soft); margin: 0 0 22px; letter-spacing: 0.02em; }
+.g-crumbs a { color: var(--green-soft); }
+.g-crumbs a:hover { color: var(--copper); }
+.g-article h1 { font-size: clamp(2rem, 5.6vw, 3.1rem); margin-bottom: 0.35em; }
+.g-article h2 { font-size: clamp(1.45rem, 3.4vw, 1.9rem); margin-top: 1.9em; }
+.g-article h3 { font-size: clamp(1.15rem, 2.4vw, 1.3rem); margin-top: 1.4em; }
+.g-article p, .g-article li { color: var(--green-soft); }
+.g-article strong { color: var(--green); }
+.g-article ul, .g-article ol { padding-left: 1.25em; }
+.g-article li { margin-bottom: 0.5em; }
+.g-intro { font-size: 1.12rem; color: var(--green) !important; }
+.g-cta { margin: 1.2em 0 2em; }
+.g-btn { text-align: center; }
+.g-sample { margin: 1.4em 0; padding: 18px 22px 6px; background: var(--paper); border: 1px solid var(--rule-faint); border-left: 3px solid var(--copper); font-family: var(--serif); }
+.g-sample p { color: var(--green); }
+.g-steps { padding-left: 1.4em; }
+.g-end { margin: 2.4em 0 0; padding: 26px 24px 8px; background: var(--paper); border: 1px solid var(--rule); outline: 1px solid var(--rule); outline-offset: -6px; }
+.g-end h2 { margin-top: 0; }
+.g-related { list-style: none; padding: 0 !important; }
+.g-related li { padding: 10px 0; border-bottom: 1px solid var(--rule-faint); }
+.g-list { list-style: none; padding: 0 !important; margin: 2em 0 0; }
+.g-list li { padding: 20px 0; border-top: 1px solid var(--rule-faint); }
+.g-list h2 { margin: 0 0 0.3em; font-size: clamp(1.3rem, 3vw, 1.6rem); }
+.g-list h2 a { text-decoration: none; }
+.g-list p { margin: 0; }
+.g-back { margin-top: 2em; font-size: 0.92rem; }
+@media (max-width: 560px) { .g-end { padding: 22px 18px 4px; } .g-btn { width: 100%; } }
